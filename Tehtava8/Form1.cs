@@ -39,6 +39,10 @@ namespace Tehtava8
                 {
                     vastaus += "M";
                 }
+                else
+                {
+                    vastaus += "";
+                }
                 vastaus += sataset(luku2, vastaus);
                 vastaus += kympit(luku3, vastaus);
                 vastaus += ykkoset(luku4, vastaus);
@@ -204,6 +208,11 @@ namespace Tehtava8
             {
                 return "";
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

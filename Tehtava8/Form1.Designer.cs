@@ -38,17 +38,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 115);
+            this.label1.Location = new System.Drawing.Point(46, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(536, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Anna numero 1-3999 välistä ja muuta se roomalaiseksi";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // vastaus_label
             // 
             this.vastaus_label.AutoSize = true;
             this.vastaus_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vastaus_label.Location = new System.Drawing.Point(21, 163);
+            this.vastaus_label.Location = new System.Drawing.Point(46, 103);
             this.vastaus_label.Name = "vastaus_label";
             this.vastaus_label.Size = new System.Drawing.Size(90, 25);
             this.vastaus_label.TabIndex = 1;
@@ -58,7 +59,7 @@
             // numero_textBox
             // 
             this.numero_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numero_textBox.Location = new System.Drawing.Point(563, 112);
+            this.numero_textBox.Location = new System.Drawing.Point(588, 52);
             this.numero_textBox.Name = "numero_textBox";
             this.numero_textBox.Size = new System.Drawing.Size(129, 31);
             this.numero_textBox.TabIndex = 2;
@@ -66,7 +67,7 @@
             // muuta_button
             // 
             this.muuta_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.muuta_button.Location = new System.Drawing.Point(564, 163);
+            this.muuta_button.Location = new System.Drawing.Point(589, 103);
             this.muuta_button.Name = "muuta_button";
             this.muuta_button.Size = new System.Drawing.Size(128, 35);
             this.muuta_button.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(782, 198);
             this.Controls.Add(this.muuta_button);
             this.Controls.Add(this.numero_textBox);
             this.Controls.Add(this.vastaus_label);
